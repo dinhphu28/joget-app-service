@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CampaignManagementApplication<campaign_management>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ndp.campaign_management.CampaignManagementApplication",
+            "projectName": "campaign_management",
+            "args": ""
+        }
+    ]
+}
