@@ -30,7 +30,7 @@ public class SendingMailSchedule {
     // }
 
     // @Scheduled(initialDelay = 60 * 1000, fixedDelay = 90 * 1000)
-    @Scheduled(cron = "0 20 1 * * *")
+    @Scheduled(cron = "0 43 12 * * *")
     public void sendMails() {
         sendingMailForAllCampaign.sendMails();
     }
